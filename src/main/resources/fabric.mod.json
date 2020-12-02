@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "ownLanguageMod",
+  "version": "${version}",
+  "name": "OwnLanguageMod",
+  "description": "Create your own languages using resource packs!",
+  "authors": [
+    "Mrln"
+  ],
+  "contact": {
+    "repo": "placeholder"
+  },
+  "license": "MIT",
+  "icon": "assets/ownLanguageMod/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "de.mrln.ownlanguagemod.client.OwnLanguageModClient"
+    ]
+  },
+  "mixins": [
+    "ownLanguageMod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.8",
+    "fabric": "*",
+    "minecraft": "1.16.4"
+  }
+}
